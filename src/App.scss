@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bodoni Moda', serif;
+}
+.pageTitle {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+.TotalCont {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-share-card {
+  border-radius: 14px;
+  padding: 21px 0;
+  padding-right: 25px;
+  max-width: 716px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.labelCont {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  .orangeCircle {
+    background: #f99a02;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .redCircle {
+    background: #ff2626;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .blueCircle {
+    background: #5885af;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .lightGreenCircle {
+    background: #b5e5cf;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .lightBrownCircle {
+    background: #e7d2cc;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .DarkBrownCircle {
+    background: #868b8e;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .lightBlueCircle {
+    background: #2395ff;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .darkBlueCircle {
+    background: #3f57ad;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .greenCircle {
+    background: rgba(172, 255, 47, 0.918);
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+}
+
+.avarageWrapper {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  padding: 28px;
+  margin: 20px 0;
+  width: 1080px;
+  height: 872px;
+}
+
+.stateListCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.stateValueCont {
+  display: flex;
+  align-items: center;
+}
+
+.dropDownCont {
+  position: absolute;
+  background: white;
+  overflow-y: scroll;
+  height: 7rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  width: 18rem;
+}
+.dropDownItem {
+  padding: 0.5rem;
+  width: 100%;
+}
+.labelsMe {
+  position: relative;
+  left: -100px;
+}
+.dropDownItem:hover {
+  background-color: rgba(243, 244, 246, 1);
+  cursor: pointer;
+}
+
+.btn {
+  width: 18rem;
+  border: 1px solid rgba(175, 174, 174, 0.267);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  background: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .social-share-card {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  .TotalCont {
+    flex-direction: column;
+  }
+  .avarageWrapper {
+    width: auto;
+    height: auto;
+  }
+}
